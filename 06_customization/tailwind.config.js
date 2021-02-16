@@ -1,11 +1,18 @@
+const { colors } = require('tailwindcss/defaultTheme');
+
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    screens: {
-      'tablet': '640px',
+    extend: {
+      colors: {
+        'new-blue': '#243C5A',
+        gray: {
+          ...colors.gray,
+          '900': '#999'
+        }
+      }
     },
-    extend: {},
   },
   variants: {
     extend: {},
