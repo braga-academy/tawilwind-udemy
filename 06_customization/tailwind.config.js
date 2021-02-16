@@ -13,6 +13,9 @@ module.exports = {
         }
       }
     },
+    spacing: {
+      '50': '20rem'
+    },
   },
   variants: {
     extend: {},
