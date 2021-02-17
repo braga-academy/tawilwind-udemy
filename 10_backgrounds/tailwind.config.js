@@ -2,7 +2,12 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'cidade': 'url(../img/bg_cidade.jpg)',
+        'tailwind': 'url(../img/tailwind.png)',
+      })
+    },
   },
   variants: {
     extend: {},
