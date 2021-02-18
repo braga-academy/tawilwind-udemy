@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.address-container {
+    @apply flex items-center border border-transparent rounded-sm py-2 px-2;
+}
+
+.address-container:hover {
+    @apply border-white
+}
+
+.item-nav-mid {
+    @apply mr-4 border border-transparent rounded-sm px-2 py-1;
+}
+
+.item-nav-mid:hover {
+    @apply border-white;
+}
+
+@screen md {
+    .address-container {
+        @apply py-0;
+    }
+}
