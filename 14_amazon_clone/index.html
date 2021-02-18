@@ -27,7 +27,7 @@
                 </div>
 
                 <!-- Busca Topo -->
-                <div class="w-full md:w-auto flex-grow md:ml-3 mr:0 pt-1 order-2 md:order-none">
+                <div class="w-full md:w-auto flex-grow md:ml-3 mr:0 pt-1 md:pt-0 order-2 md:order-none">
                     <form action="" class="flex">
                         <select class="hidden md:block p-2 text-xs text-gray-700 bg-gray-100 hover:bg-gray-300 rounded-tl rounded-bl border-r border-gray-500">
                             <option value="">Livros</option>
@@ -39,6 +39,7 @@
                     </form>
                 </div>
 
+                <!-- Menu -->
                 <div class="hidden md:block ml-1 pb-1 text-xs border border-transparent hover:border-white rounded-sm p-2">
                     <p class="leading-3">Olá, Faça seu login</p>
                     <p class="font-extrabold">Contas e Listas <i class="fas fa-chevron-down"></i></p>
@@ -53,12 +54,39 @@
                 </div>
 
                 <!-- CARRINHO -->
-                <div class="p-2 border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 md:mr-0 md:t-0 md:relative order-1 md:order-none md:flex">
+                <div class="p-2 border border-transparent hover:border-white rounded-sm absolute right-0 top-0 mr-2 mt-2 md:mr-0 md:mt-0 md:relative order-1 md:order-none md:flex">
                     <i class="fas fa-shopping-cart flex text-2xl md:mr-2"></i>
                     <span class="bold text-gold-200 text-base absolute top-0 left-0 -mt-1 ml-4 text-center w-6 h6 bg-darkblue-600 rounded-full">0</span>
                     <span class="hidden md:flex text-xs font-extrabold">Carrinho</span>
                 </div>
 
+            </div>
+
+            <!-- HEADER INTERMEDIÁRIO -->
+            <div class="flex bg-darkblue-600 text-sm px-2 py-1 items-center">
+                <!-- Selecione o Endereço -->
+                <div class="flex items-center border border-transparent hover:border-white rounded-sm py-2 px-2 md:py-0">
+                    <div class="mr-1">
+                        <i class="fas fa-map-marker-alt text-xl"></i>
+                    </div>
+                    <div class="flex md:block leading-tight text-xs">
+                        <p class="mx-1 md:mx-0">Olá</p>
+                        <p class="font-bold">Selecione o endereço</p>
+                    </div>
+                </div>
+
+                <div class="hidden md:block">
+                    <nav>
+                        <ul class="flex ml-10 text-sm">
+                            <li class="mr-2 border border-transparent hover:border-white rounded-sm px-2 py-1">Mais Vendidos</li>
+                            <li class="mr-2 border border-transparent hover:border-white rounded-sm px-2 py-1">Livros</li>
+                            <li class="mr-2 border border-transparent hover:border-white rounded-sm px-2 py-1">Ofertas do Dia</li>
+                            <li class="mr-2 border border-transparent hover:border-white rounded-sm px-2 py-1">Atendimento ao Cliente</li>
+                            <li class="mr-2 border border-transparent hover:border-white rounded-sm px-2 py-1">Eletrônicos</li>
+                            <li class="mr-2 border border-transparent hover:border-white rounded-sm px-2 py-1">Ideias para Presente</li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
         </div>
     </header>
