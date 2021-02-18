@@ -18,6 +18,10 @@
     @apply border-white;
 }
 
+.btn-amazon-prime {
+    @apply text-sm bg-yellow-350 border border-yellow-700 rounded px-3 py-3 h-12 block items-center w-full text-center
+}
+
 .item-nav-inf {
     @apply border-b-2 border-transparent py-1 px-3
 }
@@ -29,5 +33,9 @@
 @screen md {
     .address-container {
         @apply py-0;
+    }
+
+    .btn-amazon-prime {
+        @apply text-xs py-0 ml-10 h-8 flex w-auto
     }
 }
