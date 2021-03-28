@@ -1,4 +1,4 @@
-# Spotify Clone
+# Amazon Clone
 
 ![Screenshot](screenshot.png "Amazon Clone")
 
